@@ -1,0 +1,1986 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# Terra Pinyin - 地球拼音
+#
+# terra_pinyin_1 洋蔥版 地球拼音 碼表：
+# http://deltazone.pixnet.net/blog/post/264319309
+#
+# 2018-04-23 Jack Wu <sjackwu@yahoo.com>
+#   - 搜尋/修改「輕聲」的字
+#   - 非台灣用語，以可能會因為白痴造句法被match 的詞為主；
+#   - 如果裡面有沒看過的字，就不改（真的有些字連看都沒看過，不會唸）
+#   - 改詞不改字
+#
+---
+name: terra_pinyin_1.extended
+version: "2018-04-20"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+#  - terra_pinyin_1
+...
+
+滴答聲	di1 da1 sheng1
+滿不在乎	man3 bu2 zai4 hu1
+滿地撿芝麻	man3 di4 jian3 zhi1 ma2
+滿張羅	man3 zhang1 luo2
+強迫	qiang2 po4
+便宜	pian2 yi2
+下個	xia4 ge5
+每個	mei3 ge5
+個	ge5	100
+兩個	liang3 ge5
+看看	kan4 kan4
+呢	ne1
+咖喱	ga1 li3
+試試	shi4 shi4
+防曬	fang2 shai4	100
+曬	shai4	100
+意思	yi4 si4
+意思	yi4 si1
+不好意思	bu4 hao3 yi4 si1
+上面	shang4 mian4
+櫃台	gui4 tai2
+想要	xiang3 yao4
+下載	xia4 zai4
+潛在	qian3 zai4
+早上	zao3 shang4
+一不小心	yi1 bu4 xiao3 xin1
+一中一台	yi4 zhong1 yi4 tai2
+一打	yi1 da3
+不是嗎	bu2 shi4 ma1
+但是	dan4 shi4
+嗎	ma1	99%
+圓石頭	yuan2 shi2 tou2
+搬石頭砸自己的腳	ban1 shi2 tou2 za2 zi4 ji3 de5 jiao3
+新鮮	xin1 xian1
+爸爸	ba4 ba4
+石頭	shi2 tou2
+謝謝	xie4 xie4
+臨櫃	lin2 gui4
+加到	jia1 dao4
+濾心	lv4 xin1
+再試	zai4 shi4
+為你	wei4 ni3
+頁籤	ye4 qian1
+食記	shi2 ji4
+投放	tou2 fang4
+技術部	ji4 shu4 bu4
+勇者鬥惡龍	yong3 zhe3 dou4 e4 long2
+業配	ye4 pei4
+先看	xian1 kan4
+匯錢	hui4 qian2
+檢查碼	jian3 cha2 ma3
+簽呈	qian1 cheng2
+是被	shi4 bei4
+筆數	bi3 shu4
+待辦	dai4 ban4
+為什麼	wei4 she2 mo5
+奶奶	nai3 nai3
+下去	xia4 qu4
+認得	ren4 de2
+㖿	ye3
+喔	o1
+蘇	su1
+一發不可收拾	yi1 fa1 bu4 ke3 shou1 shi2
+上一個	shang4 yi1 ge5
+上一頁	shang4 yi1 ye4
+歲數	sui4 shu4
+上年紀	shang4 nian2 ji4
+下一個	xia4 yi1 ge5
+下巴	xia4 ba1
+不以規矩	bu4 yi3 gui1 ju3
+不值得	bu4 zhi2 de2
+不含糊	bu4 han2 hu2
+明白	ming2 bai2
+不太明白	bu2 tai4 ming2 bai2
+媽媽	ma1 ma1
+媽媽教室	ma1 ma1 jiao4 shi4
+媽媽樂	ma1 ma1 le4
+回去	hui2 qu4
+不安份	bu4 an1 fen4
+不客氣	bu2 ke4 qi4
+不曉得	bu4 xiao3 de2
+曉得	xiao3 de2
+不正經	bu4 zheng4 jing1
+不清楚	bu4 qing1 chu3
+不用客氣	bu2 yong4 ke4 qi4
+不由得	bu4 you2 de2
+不結實	bu4 jie2 shi2
+不肖的東西	bu4 xiao4 de5 dong1 xi1
+不自在	bu2 zi4 zai4
+不舒服	bu4 shu1 fu2
+不見得	bu2 jian4 de2
+不認得	bu4 ren4 de2
+不識抬舉	bu2 shi4 tai2 ju3
+不識抬舉	bu4 shi4 tai2 ju3
+不足的地方	bu4 zu2 de5 di4 fang1
+丫頭	ya1 tou2
+丫環	ya1 huan2
+大夫	dai4 fu1
+主要任務	zhu3 yao4 ren4 wu4
+乾妹妹	gan1 mei4 mei4
+舌頭	she2 tou2
+伸舌頭	shen1 she2 tou2
+吐舌頭	tu3 she2 tou2
+咬舌頭	yao3 she2 tou2
+嚼舌頭	jiao2 she2 tou2
+了不起	liao3 bu4 qi3
+了得	liao3 de2
+互別苗頭	hu4 bie2 miao2 tou2
+交朋友	jiao1 peng2 you3
+份量	fen4 liang4
+伙食	huo3 shi2
+伯伯	bo2 bo2
+估量	gu1 liang2
+伸縮喇叭	shen1 suo1 la3 ba1
+喇叭	la3 ba1
+喇叭形	la3 ba1 xing2
+喇叭手	la3 ba1 shou3
+喇叭筒	la3 ba1 tong3
+喇叭花	la3 ba1 hua1
+喇叭蟲	la3 ba1 chong2
+喇叭裙	la3 ba1 qun2
+喇叭褲	la3 ba1 ku4
+哈巴	ha3 ba1
+哈巴狗	ha3 ba1 gou3
+哈拉	ha1 la1
+哥哥	ge1 ge1
+哥哥不在家	ge1 ge1 bu4 zai4 jia1
+哪兒	na3 er2
+哭哭啼啼	ku1 ku1 ti2 ti2
+啃骨頭	ken3 gu2 tou2
+商量	shang1 liang2
+啞巴	ya3 ba1
+啞巴吃黃蓮	ya3 ba1 chi1 huang2 lian2
+喇嘛	la3 ma1
+喇嘛廟	la3 ma1 miao4
+喇嘛教	la3 ma1 jiao4
+喉嚨	hou2 long2
+喘不過	chuan3 bu2 guo4
+喘不過	chuan3 bu4 guo4
+喘不過氣來	chuan3 bu2 guo4 qi4 lai2
+喘不過氣來	chuan3 bu4 guo4 qi4 lai2
+嘀咕	di2 gu1
+嘀嘀咕咕	di2 di2 gu1 gu1
+嘗嘗	chang2 chang2
+嘗甜頭	chang2 tian2 tou2
+嘟嘟噥噥	du1 du1 nong2 nong2
+嘟噥	du1 nong2
+嘮叨	lao1 dao1
+嘮嘮叨叨	lao1 lao1 dao1 dao1
+嘰哩呱啦	ji1 li1 gua1 la1
+嘰嘰咕咕	ji1 ji1 gu1 gu1
+嘴上無毛	zui3 shang4 wu2 mao2
+嘴巴	zui3 ba1
+嚇唬	xia4 hu3
+囉哩囉嗦	luo1 li1 luo1 suo1
+囉嗦	luo1 suo1
+囉囉嗦嗦	luo1 luo1 suo1 suo1
+豆腐	dou4 fu3
+回來	hui2 lai2
+回去	hui2 qu4
+回頭	hui2 tou2
+因果關係	yin1 guo3 guan1 xi1
+關係	guan1 xi1
+困難	kun4 nan2
+圓仔湯	yuan2 zi3 tang1
+團結就是力量	tuan2 jie2 jiu4 shi4 li4 liang4
+地上	di4 shang4
+地下	di4 xia4
+地下的	di4 xia4 de5
+地方停車	di4 fang4 ting2 che1
+坐不住	zuo4 bu4 zhu4
+坐不住	zuo4 bu2 zhu4
+坐不穩	zuo4 bu4 wen3
+坐實	zuo4 shi2
+壓不住	ya1 bu2 zhu4
+壓不碎	ya1 bu2 sui4
+壓不住	ya1 bu4 zhu4
+壓不碎	ya1 bu4 sui4
+壞東西	huai4 dong1 xi1
+外孫女兒	wai4 sun1 nv3 er2
+外甥女婿	wai4 sheng1 nv3 xu5
+外甥媳婦	wai4 sheng1 xi2 fu4
+外路	wai4 lu4
+外路人	wai4 lu4 ren2
+外頭	wai4 tou2
+多任務	duo1 ren4 wu2
+多少錢	duo1 shao3 qian2
+夠朋友	gou4 peng2 you3
+大中學生	da4 zhong1 xue2 sheng1
+大伙兒	da4 huo3 er2
+大先生	da4 xian1 sheng1
+大出鋒頭	da4 chu1 feng1 tou2
+大吃苦頭	da4 chi1 ku3 tou2
+大喇叭	da4 la3 ba2
+大嘴巴	da4 zui3 ba1
+大大小小	da4 da4 xiao3 xiao3
+大姐姐	da4 jie3 jie3
+大姑娘	da4 gu1 niang2
+大媽媽	da4 ma1 ma1
+大拇指頭	da4 mu3 zhi3 tou2
+大爺公	da4 ye2 gong1
+大猩猩	da4 xing1 xing1
+大發脾氣	da4 fa1 pi2 qi4
+大老婆	da4 lao3 po2
+大耳朵	da4 er3 duo1
+大舌頭	da4 she2 tou2
+大阿哥	da4 a4 ge1
+天底下	tian1 di3 xia4
+天曉得	tian1 xiao3 de2
+天竺牡丹	tian1 zhu2 mu3 dan1
+天靈	tian1 ling2
+天靈蓋	tian1 ling2 gai4
+太太	tai4 tai4
+太老先生	tai4 lao3 xian1 sheng1
+夾屁股	jia2 pi4 gu3
+奉承討好	feng4 cheng2 tao3 hao3
+套交情	tao4 jiao1 qing2
+套套	tao4 tao4
+女先生	nv3 xian1 sheng1
+女光棍	nv3 guang1 gun4
+女孩兒	nv3 hai2 er2
+女朋友	nv3 peng2 you3
+奸細	jian1 xi4
+好久不見	hao3 jiu3 bu2 jian4
+好久不見	hao3 jiu3 bu4 jian4
+好傢伙	hao3 jia1 huo3
+好學近乎知	hao4 xue2 jin4 hu1 zhi1
+好意思	hao3 yi4 si1
+好東西	hao3 dong1 xi1
+好沒意思	hao3 mei2 yi4 si1
+好消息	hao3 xiao1 xi2
+好生意	hao3 sheng1 yi4
+妖氣	yao1 qi4
+妖精	yao1 jing1
+妞妞	niu1 niu1
+妥妥貼貼	tuo3 tuo3 tie1 tie1
+妯娌	zhou2 li2
+妹妹	mei4 mei4
+姊夫	jie3 fu1
+姊姊	jie3 jie3
+姐姐	jie3 jie3
+姑姑	gu1 gu1
+姑爺	gu1 ye2
+姑老爺	gu1 lao3 ye2
+姥姥	lao3 lao3
+姥姥不疼	lao3 lao3 bu4 teng2
+姥姥不疼	lao3 lao1 bu4 teng2
+姨太太	yi2 tai4 tai4
+娃娃	wa2 wa2
+娃娃	wa2 wa1
+娃娃兵	wa2 wa2 bing1
+娃娃兵	wa2 wa1 bing1
+娃娃臉	wa2 wa2 lian3
+娃娃臉	wa2 wa1 lian3
+娃娃車	wa2 wa2 che1
+娃娃車	wa2 wa1 che1
+娃娃魚	wa2 wa2 yu2
+娃娃魚	wa2 wa1 yu2
+好哦 hao3 o1
+阿災 阿災	a1 zai1
+衝三小	chong1 san1 xiao3
+過渡期	guo4 du4 qi2
+娘娘	niang2 niang2
+娘娘腔	niang2 niang2 qiang1
+娘家	niang2 jia1
+娶媳婦	qu3 xi2 fu4
+婆婆	po2 po2
+婆婆媽媽	po2 po2 ma1 ma1
+婦人家	fu4 ren2 jia1
+婦道人家	fu4 dao4 ren2 jia1
+媒人	mei2 ren2
+嫂夫人	sao3 fu1 ren2
+嫂嫂	sao3 sao3
+嬌嫩	jiao1 nen4
+嬸嬸	shen3 shen3
+字面意思	zi4 mian4 yi4 si1
+孫女婿	sun1 nv3 xu4
+學生會	xue2 sheng1 hui4
+學生運動	xue2 sheng1 yun4 dong4
+守住	shou3 zhu4
+守規矩	shou3 gui1 ju3
+安閒自在	an1 xian2 zi4 zai4
+安魂彌撒	an1 hun2 mi2 sa1
+完全懂得	wan2 quan2 dong3 de2
+官樣	guan1 yang4
+官老爺	guan1 lao3 ye2
+客氣話	ke4 qi4 hua4
+家常豆腐	jia1 chang2 dou4 fu3
+容不下	rong2 bu2 xia4
+容不下	rong2 bu4 xia4
+容不得	rong2 bu4 de2
+容不得	rong2 bu2 de2
+富態	fu4 tai4
+實葫蘆	shi2 hu2 lu2
+專業知識	zhuan1 ye4 zhi1 shi4
+對上	dui4 shang4
+對不住	dui4 bu2 zhu4
+對不起	dui4 bu4 qi3
+對付	dui4 fu4
+小丫頭	xiao3 ya1 tou2
+小先生	xiao3 xian1 sheng1
+小喇叭	xiao3 la3 ba1
+小夥計	xiao3 huo3 ji4
+小女人	xiao3 nv3 ren2
+小姑娘	xiao3 gu1 niang2
+小娃娃	xiao3 wa2 wa2
+小娃娃	xiao3 wa2 wa1
+小孩子脾氣	xiao3 hai2 zi5 pi2 qi4
+小弟弟	xiao3 di4 di4
+小意思	xiao3 yi4 si4
+小意思	xiao3 yi4 si1
+小拇指	xiao3 mu3 zhi3
+小本生意	xiao3 ben3 sheng1 yi4
+小東西	xiao3 dong1 xi1
+小毛頭	xiao3 mao2 tou2
+小滑頭	xiao3 hua2 tou2
+小老婆	xiao3 lao3 po2
+小耳朵	xiao3 er3 duo1
+小蘿蔔頭	xiao3 luo2 bo1 tou5
+少不了	shao3 bu4 liao3
+少不得	shao3 bu4 de2
+少不得	shao3 bu4 de5
+少奶奶	shao4 nai3 nai1
+少奶奶	shao4 nai3 nai3
+少爺	shao4 ye2
+就和	jiu4 he2
+尺寸過大	chi3 cun4 guo4 da4
+屁股	pi4 gu3
+居里夫人	ju1 li3 fu1 ren2
+屈辱	qu1 ru3
+山姆叔叔	shan1 mu3 shu2 shu2
+山葡萄	shan1 pu2 tao2
+山藥	shan1 yao4
+差不多	cha4 bu4 duo1
+差事	chai1 shi4
+巴掌	ba1 zhang3
+巴結	ba1 jie2
+布娃娃	bu4 wa2 wa2
+布娃娃	bu4 wa2 wa1
+希罕	xi1 han4
+師父	shi1 fu4
+師父領進門	shi1 fu4 ling3 jin4 men2
+帶去	dai4 qu4
+聊聊	liao2 liao2
+年份	nian2 fen4
+年月	nian2 yue4
+幹事長	gan4 shi4 zhang3
+底下人	di3 xia4 ren2
+弄不清	nong4 bu4 qing1
+弄明白	nong4 ming2 bai2
+弟兄	di4 xiong4
+弟媳婦	di4 xi2 fu4
+弟弟	di4 di4
+彆扭	bie4 niu3
+彈琵琶	tan2 pi2 pa2
+待會兒	dai1 hui4 er2
+後邊	hou4 bian1
+後頭	hou4 tou2
+心事	xin1 shi4
+心願	xin1 yuan4
+忍不住	ren3 bu2 zhu4
+忘性	wang4 xing4
+快活	kuai4 huo2
+念頭	nian4 tou2
+怕不	pa4 bu4
+怕是	pa4 shi4
+急急忙忙	ji2 ji2 mang2 mang2
+急煞	ji2 sha1
+性關係	xing4 guan1 xi1
+怨不得	yuan4 bu4 de5
+怨恨	yuan4 hen4
+怪不得	guai4 bu4 de2
+怪叔叔	guai4 shu2 shu2
+怪念頭	guai4 nian4 tou2
+怪沒意思	guai4 mei2 yi4 si1
+恨不得	hen4 bu4 de2
+恨不能	hen4 bu4 neng2
+恭維話	gong1 wei2 hua4
+悄悄話	qiao1 qiao1 hua4
+悶得慌	men1 de5 huang1
+悶葫蘆	men4 hu2 lu2
+情面	qing2 mian4
+想不到	xiang3 bu2 dao4
+想不透	xiang3 bu2 tou4
+想不透	xiang3 bu4 tou4
+想想	xiang3 xiang3
+想起來	xiang3 qi3 lai5
+意思	yi4 si4
+意思	yi4 si1
+意思意思	yi4 si4 yi4 si4
+愛漂亮	ai4 piao4 liang4
+慢慢吞吞	man4 man4 tun1 tun1
+懂得	dong3 de2
+懈鬆	xie4 song4
+懶骨頭	lan3 gu3 tou2
+成氣候	cheng2 qi4 hou4
+戲子	xi4 zi3
+戴上	dai4 shang4
+扁擔	bian3 dan4
+扁食	bian3 shi2
+手底下	shou3 di3 xia4
+手指頭	shou3 zhi3 tou2
+扎實	zha1 shi2
+打不過	da3 bu2 guo4
+打哈哈	da3 ha1 ha1
+打哈欠	da3 ha1 qian4
+打嘴巴	da3 zui3 ba1
+打屁股	da3 pi4 gu3
+打打殺殺	da3 da3 sha1 sha1
+打打鬧鬧	da3 da3 nao4 nao4
+打發	da3 fa1
+打量	da3 liang2
+打馬虎	da3 ma3 hu1
+打馬虎眼	da3 ma3 hu1 yan3
+打點	da3 dian3
+托運行李	tuo1 yun4 xing2 li3
+扯落	che3 luo4
+扶手	fu2 shou3
+批哩啪啦	pi1 li1 pa1 la1
+找不到	zhao3 bu4 dao4
+找不到	zhao3 bu2 dao4
+找尋	zhao3 xun2
+找麻煩	zhao3 ma2 fan2
+技術知識	ji4 shu4 zhi1 shi4
+把玩	ba3 wan2
+抵不過	di3 bu2 guo4
+抽屜	chou1 ti4
+抽打	chou1 da3
+拆洗	chai1 xi3
+拇指甲	mu3 zhi3 jia3
+拉不下臉來	la1 bu2 xia4 lian3 lai2
+拉主顧	la1 zhu3 gu4
+拉抽屜	la1 chou1 ti4
+拉拔	la1 ba2
+拉攏	la1 long3
+拉生意	la1 sheng1 yi4
+拉開	la1 kai1
+拓印	tuo4 yin4
+拗不過	ao3 bu2 guo4
+招呼站	zhao1 hu1 zhan4
+招惹	zhao1 re3
+招招手	zhao1 zhao1 shou3
+招攬生意	zhao1 lan3 sheng1 yi4
+拜拜	bai4 bai4
+拜碼頭	bai4 ma3 tou2
+拳頭	quan2 tou2
+拼起來	pin1 qi3 lai2
+拿不動	na2 bu2 dong4
+拿不定	na2 bu2 ding4
+拿住	na2 zhu4
+拿捏	na2 nie1
+指甲	zhi3 jia3
+指甲刀	zhi3 jia3 dao1
+指甲剪	zhi3 jia3 jian3
+指甲油	zhi3 jia3 you2
+指頭	zhi3 tou2
+按捺不住	an4 na4 bu2 zhu4
+挑剔	tiao1 ti4
+挖苦	wa1 ku3
+挖鼻子	wa1 bi2 zi3
+挽眉毛	wan3 mei2 mao2
+捏舌頭	nie1 she2 tou2
+捨不得	she3 bu4 de2
+捨得	she3 de2
+掃帚	sao4 zhou3
+掃帚星	sao4 zhou3 xing1
+排場	pai2 chang3
+掛在嘴上	gua4 zai4 zui3 shang4
+探消息	tan4 xiao1 xi2
+
+探親家	tan4 qin1 jia1
+提不起來	ti2 bu2 qi3 lai2
+提不起來	ti2 bu4 qi3 lai2
+提起精神	ti2 qi3 jing1 shen2
+插上	cha1 shang4
+援交小姐	yuan2 jiao1 xiao3 jie3
+搓弄	cuo1 nong4
+搖撼	yao2 han4
+搞不好	gao3 bu4 hao3
+搞不懂	gao3 bu4 dong3
+搞頭	gao3 tou2
+搬石頭砸自己的腳	ban1 shi2 tou2 za2 zi4 ji3 de5 jiao3
+搶生意	qiang3 sheng1 yi4
+搶盡鋒頭	qiang3 jin4 feng1 tou2
+搶風頭	qiang3 feng1 tou2
+摔打	shuai1 da3
+摸石頭過河	mo1 shi2 tou2 guo4 he2
+摸索	mo1 suo3
+撂下	liao4 xia4
+撈油水	lao1 you2 shui3
+撲克	pu2 ke4
+撲克牌	pu2 ke4 pai2
+撲克臉	pu2 ke4 lian3
+擠上去	ji3 shang4 qu4
+擡舉	tai2 ju3
+擲骰子	zhi2 shai3 zi5
+攪和	jiao3 huo4
+攪混	jiao3 hun4
+支使	zhi1 shi3
+支吾其詞	zhi1 wu2 qi2 ci2
+改善關係	gai3 shan4 guan1 xi4
+放下包袱	fang4 xia4 bao1 fu2
+放不下	fang4 bu2 xia4
+放不下心	fang4 bu2 xia4 xin1
+故事書	gu4 shi4 shu1
+教訓	jiao1 xun4
+敢情	gan3 qing2
+整個地球	zheng3 ge5 di4 qiu2
+數不勝數	shu3 bu2 sheng1 shu3
+斧頭	fu3 tou2
+新鮮	xin1 xian1
+新鮮事	xin1 xian1 shi4
+新鮮人	xin1 xian1 ren2
+旋轉行李傳送帶	xuan2 zhuan3 xing2 li3 chuan2 song4 dai4
+早上	zao3 shang3
+早上好	zao3 shang3 hao3
+早夭	zao3 yao1
+早知道	zao3 zhi1 dao4
+明白	ming2 bai2
+明白人	ming2 bai2 ren2
+春風深醉的晚上	chun1 feng1 shen1 zui4 de5 wan3 shang4
+時辰	shi2 chen2
+時辰未到	shi2 chen2 wei4 dao4
+晃搖	huang4 yao2
+晃晃悠悠	huang4 huang4 you1 you1
+晚上	wan3 shang4
+晚場	wan3 chang3
+暄騰	xuan1 teng2
+暖和	nuan3 huo2
+暴脾氣	bao4 pi2 qi4
+曉得	xiao3 de2
+書記處	shu1 ji4 chu4
+替換	ti4 huan4
+會得	hui4 de2
+月亮女神	yue4 liang4 nv3 shen2
+月宮娘娘	yue4 gong1 niang2 niang2
+
+有來頭	you3 lai2 tou2
+有出息	you3 chu1 xi2
+有分寸	you3 fen1 cun4
+有失厚道	you3 shi1 hou4 dao4
+有意思	you3 yi4 si1
+有意思	you3 yi4 si4
+
+播放	bo1 fang4
+有時候	you3 shi2 hou4
+有瓜葛	you3 gua1 ge3
+有益處	you3 yi4 chu4
+有眉目	you3 mei2 mu4
+有看頭	you3 kan4 tou2
+有苗頭	you3 miao2 tou2
+有苦說不出	you3 ku3 shuo1 bu4 chu1
+有講究	you3 jiang3 jiu4
+有賺頭	you3 zhuan4 tou2
+有起色	you3 qi3 se4
+有關係	you3 guan1 xi1
+有關係	you3 guan1 xi1
+有關係	you3 guan1 xi4
+有骨頭	you3 gu3 tou2
+服侍	fu2 shi4
+服服	fu2 fu2
+服服貼貼	fu2 fu2 tie1 tie1
+朝天餛飩	chao2 tian1 hun2 dun4
+木子	mu4 zi3
+木頭	mu4 tou2
+木頭人	mu4 tou2 ren2
+木頭似的	mu4 tou2 si4 de5
+未婚媽媽	wei4 hun1 ma1 ma1
+本事不濟	ben3 shi4 bu2 ji4
+本事高強	ben3 shi4 gao1 qiang2
+朱子	zhu1 zi3
+杭州蘿蔔紹興種	hang2 zhou1 luo2 bo1 shao4 xing1 zhong3
+松香油	song1 xiang1 you2
+枇杷	pi2 pa2
+枇杷膏	pi2 pa2 gao1
+枕頭	zhen3 tou2
+枕頭套	zhen3 tou2 tao4
+枕頭箱	zhen3 tou2 xiang1
+架弄	jia4 nong4
+架式	jia4 shi4
+架舌頭	jia4 she2 tou2
+柴火	chai2 huo3
+柴頭	chai2 tou2
+核威懾力量	he2 wei1 she4 li4 liang4
+核桃	he2 tao2
+核桃仁	he2 tao2 ren2
+根頭	gen1 tou2
+格格	ge2 ge2
+栽跟頭	zai1 gen1 tou2
+載入	zai4 ru4
+框框	kuang1 kuang1
+棉花	mian2 hua1
+真是的	zhen1 shi4 de5
+躲不了	duo3 bu4 liao3
+遠水救不了近火	yuan3 shui3 jiu4 bu4 liao3 jin4 huo3
+露出了狐狸尾巴	lou4 chu1 le5 hu2 li2 wei3 ba1
+模模糊糊	mo2 mo5 hu2 hu2
+模特兒	mo2 te4 er3
+一機靈	yi1 ji1 ling2
+
+
+棉花耳朵	mian2 hua1 er3 duo1
+棚匠	peng2 jiang4
+棧橋式碼頭	zhan4 qiao2 shi4 ma3 tou2
+棺材	guan1 cai2
+棺材座子	guan1 cai2 zuo4 zi5
+棺材本	guan1 cai2 ben3
+棺材板	guan1 cai2 ban3
+棺材楦子	guan1 cai2 xuan4 zi5
+棺材瓤子	guan1 cai2 rang2 zi5
+椰子汁	ye2 zi5 zhi1
+椰子油	ye1 zi5 you2
+楦頭	xuan4 tou2
+榔頭	lang2 tou2
+榫頭	sun3 tou2
+樂嘻嘻	le4 xi1 xi1
+
+#「子」相關
+獅子會	shi1 zi3 hui4
+眼皮子底下	yan3 pi2 zi5 di3 xia4
+種子島	zhong3 zi3 dao3
+種子植物	zhong3 zi3 zhi2 wu4
+種子選手	zhong3 zi3 xuan3 shou3
+知識份子	zhi1 shi4 fen4 zi5
+石榴子	shi2 liu2 zi3
+正人君子	zheng4 ren2 jun1 zi3
+王八羔子	wang2 ba1 gao1 zi5
+皮夾子	pi2 jia2 zi5
+種子	zhong3 zi3
+端子	duan1 zi3
+腦袋瓜子	nao3 dai4 gua1 zi5
+舍利子	she4 li4 zi3
+花子	hua1 zi3
+莊子	zhuang1 zi3
+蒼蠅拍子	cang1 ying2 pai1 zi5
+販夫俗子	fan4 fu1 su2 zi3
+過河卒子	guo4 he2 zu2 zi3
+釘扣子	ding1 kou4 zi5
+鑷子	nie1 zi5
+長子	chang3 zi3
+骨頭架子	gu3 tou2 jia4 zi5
+
+#「的」相關
+沒一頓飯的工夫	mei2 yi1 dun4 fan4 de5 gong1 fu1
+沒得說的	mei2 de2 shuo1 de5
+沒有不散的筵席	mei2 you3 bu2 san4 de5 yan4 xi2
+沒正經的事	mei2 zheng4 jing1 de5 shi4
+
+#「蒼蠅」相關
+沒腦袋的蒼蠅	mei2 nao3 dai4 de5 cang1 ying2
+沒頭蒼蠅	mei2 tou2 cang1 ying2
+無頭蒼蠅	wu2 tou2 cang1 ying2
+老虎頭上打蒼蠅	lao3 hu3 tou2 shang4 da3 cang1 ying2
+老虎頭上拍蒼蠅	lao3 hu3 tou2 shang4 pai1 cang1 ying2
+老虎頭上撲蒼蠅	lao3 hu3 tou2 shang4 pu1 cang1 ying2
+蒼蠅	cang1 ying2
+蒼蠅座	cang1 ying2 zuo4
+蒼蠅拍子	cang1 ying2 pai1 zi5
+蒼蠅掐了頭	cang1 ying2 qia1 le5 tou2
+蒼蠅紙	cang1 ying2 zhi3
+蒼蠅見血	cang1 ying2 jian4 xie3
+
+#「東西」相關
+不是東西	bu2 shi4 dong1 xi1
+不肖的東西	bu2 xiao4 de5 dong1 xi1
+不要臉的東西	bu2 yao4 lian3 de5 dong1 xi1
+不高的東西	bu4 gao1 de5 dong1 xi1
+兩樣東西	liang3 yang4 dong1 xi1
+壞東西	huai4 dong1 xi1
+好東西	hao3 dong1 xi1
+小東西	xiao3 dong1 xi1
+沒良心的東西	mei2 liang2 xin1 de5 dong1 xi1
+混帳東西	hun4 zhang4 dong1 xi1
+甚麼東西	shen2 me5 dong1 xi1
+老東西	lao3 dong1 xi1
+蠢東西	chun3 dong1 xi1
+買東西	mai3 dong1 xi1
+
+#「皇冠」相關
+皇冠	huang2 guan4
+皇冠上的明珠	huang2 guan4 shang4 de5 ming2 zhu1
+皇冠假日酒店	huang2 guan4 jia4 ri4 jiu3 dian4
+皇冠出版	huang2 guan4 chu1 ban3
+皇冠出版集團	huang2 guan4 chu1 ban3 ji2 tuan2
+
+#「磨坊」相關
+磨坊	mo2 fang3
+磨坊主	mo2 fang3 zhu3
+美麗的磨坊少女	mei3 li4 de5 mo2 fang3 shao4 nv3
+
+#「主意」相關
+拿主意	na2 zhu3 yi4
+沒主意	mei2 zhu3 yi4
+沒了主意	mei2 le5 zhu3 yi4
+沒得主意	mei2 de5 zhu3 yi4
+沒有主意	mei2 you3 zhu3 yi4
+
+#「狐狸」相關
+狐狸	hu2 li2
+狐狸尾巴	hu2 li2 wei3 ba1
+狐狸狗	hu2 li2 gou3
+狐狸精	hu2 li2 jing1
+老狐狸	lao3 hu2 li2
+野狐狸	ye3 hu2 li2
+
+#「尾巴」相關
+做尾巴	zuo4 wei3 ba1
+夾起尾巴	jia1 qi3 wei3 ba1
+尾巴	wei3 ba1
+尾巴	yi3 ba1
+扯尾巴	che3 wei3 ba1
+扯牛尾巴	che3 niu2 wei3 ba1
+拖尾巴	tuo1 wei3 ba1
+揪尾巴	jiu1 wei3 ba1
+留尾巴	liu2 wei3 ba1
+翹尾巴	qiao4 wei3 ba1
+翹尾巴	qiao4 yi3 ba1
+老鼠尾巴	lao3 shu3 wei3 ba1
+豬尾巴	zhu1 wei3 ba1
+長尾巴	zhang3 wei3 ba1
+馬尾巴	ma3 wei3 ba1
+
+#「模糊」相關
+模糊	mo2 hu2
+模糊不清	mo2 hu2 bu4 qing1
+模糊數學	mo2 hu2 shu4 xue2
+模糊邏輯	mo2 hu2 luo2 ji2
+模糊集合理論	mo2 hu2 ji2 he2 li3 lun4
+
+#「邏輯」相關
+命題邏輯	ming4 ti2 luo2 ji2
+詞項邏輯	ci2 xiang4 luo2 ji2
+邏輯演算	luo2 ji2 yan3 suan4
+邏輯錯誤	luo2 ji2 cuo4 wu4
+邏輯鏈路控制	luo2 ji2 lian4 lu4 kong4 zhi4
+量化邏輯	liang4 hua4 luo2 ji2
+
+#「玻璃」相關
+不碎玻璃	bu2 sui4 bo1 li2
+中空玻璃	zhong1 kong1 bo1 li2
+光學玻璃	guang1 xue2 bo1 li2
+吸熱玻璃	xi1 re4 bo1 li2
+吹玻璃	chui1 bo1 li2
+塑膠玻璃	su4 jiao1 bo1 li2
+安全玻璃	an1 quan2 bo1 li2
+嵌玻璃	qian1 bo1 li2
+強化玻璃	qiang2 hua4 bo1 li2
+彩色玻璃	cai3 se4 bo1 li2
+擋風玻璃	dang3 feng1 bo1 li2
+有機玻璃	you3 ji1 bo1 li2
+毛玻璃	mao2 bo1 li2
+水晶心肝玻璃人	shui3 jing1 xin1 gan1 bo1 li2 ren2
+水玻璃	shui3 bo1 li2
+泡沫玻璃	pao4 mo4 bo1 li2
+火玻璃	huo3 bo1 li2
+玻璃	bo1 li2
+玻璃化	bo1 li2 hua4
+玻璃圈	bo1 li2 quan1
+玻璃小鞋	bo1 li2 xiao3 xie2
+玻璃布	bo1 li2 bu4
+玻璃帷幕	bo1 li2 wei2 mu4
+玻璃心肝	bo1 li2 xin1 gan1
+玻璃杯	bo1 li2 bei1
+玻璃泉	bo1 li2 quan2
+玻璃浮雕	bo1 li2 fu2 diao1
+玻璃液	bo1 li2 ye4
+玻璃烤	bo1 li2 kao3
+玻璃版	bo1 li2 ban3
+玻璃狀態	bo1 li2 zhuang4 tai4
+玻璃畫	bo1 li2 hua4
+玻璃砂	bo1 li2 sha1
+玻璃磚	bo1 li2 zhuan1
+玻璃窗	bo1 li2 chuang1
+玻璃管	bo1 li2 guan3
+玻璃粉	bo1 li2 fen3
+玻璃紙	bo1 li2 zhi3
+玻璃絲	bo1 li2 si1
+玻璃絲襪	bo1 li2 si1 wa4
+玻璃纖維	bo1 li2 xian1 wei2
+玻璃質肥料	bo1 li2 zhi2 fei2 liao4
+玻璃鋼	bo1 li2 gang1
+玻璃體	bo1 li2 ti3
+石英玻璃	shi2 ying1 bo1 li2
+硬玻璃	ying4 bo1 li2
+硼玻璃	peng2 bo1 li2
+磨砂玻璃	mo2 sha1 bo1 li2
+結晶玻璃	jie2 jing1 bo1 li2
+鈷玻璃	gu1 bo1 li2
+鉛玻璃	qian1 bo1 li2
+雙層玻璃	shuang1 ceng2 bo1 li2
+風檔玻璃	feng1 dang3 bo1 li2
+
+#「個」相關
+一步一個腳印	yi1 bu4 yi2 ge5 jiao3 yin4
+三個臭皮匠	san1 ge5 chou4 pi2 jiang4
+兩個或更多	liang3 ge5 huo4 geng4 duo1
+凡事總有一個開頭	fan2 shi4 zong3 you3 yi2 ge5 kai1 tou2
+十幾個月	shi2 ji3 ge5 yue4
+合成一個諸葛亮	he2 cheng2 yi2 ge5 zhu1 ge3 liang4
+整個地球	zheng3 ge5 di4 qiu2
+猛個勁	meng3 ge5 jin4
+百幾個	bai3 ji3 ge5
+賽過一個諸葛亮	sai4 guo4 yi2 ge5 zhu1 ge3 liang4
+那個	nei4 ge5
+
+#「在乎」相關
+並不在乎	bing4 bu2 zai4 hu1
+毫不在乎	hao2 bu4 zai4 hu1
+毫不在乎	hao2 bu2 zai4 hu1
+滿不在乎	man3 bu2 zai4 hu1
+滿不在乎	man3 bu4 zai4 hu1
+
+#「客氣」相關
+不大客氣	bu4 da4 ke4 qi4
+不客氣	bu2 ke4 qi4
+不用客氣	bu2 yong4 ke4 qi4
+別太客氣	bie2 tai4 ke4 qi4
+別客氣	bie2 ke4 qi4
+客氣話	ke4 qi4 hua4
+毫不客氣	hao2 bu2 ke4 qi4
+
+#「故事」相關
+好故事百聽不厭	hao3 gu4 shi4 bai3 ting1 bu2 yan4
+故事書	gu4 shi4 shu1
+故事片	gu4 shi4 pian1
+故事片	gu4 shi4 pian4
+故事詩	gu4 shi4 shi1
+民間故事	min2 jian1 gu4 shi4
+神話故事	shen2 hua4 gu4 shi4
+虛應故事	xu1 ying4 gu4 shi4
+
+#「葡萄」相關
+吃不到葡萄說葡萄酸	chi1 bu2 dao4 pu2 tao2 shuo1 pu2 tao2 suan1
+山葡萄	shan1 pu2 tao2
+氨基葡萄糖	an1 ji1 pu2 tao2 tang2
+海葡萄	hai3 pu2 tao2
+紅葡萄酒	hong2 pu2 tao2 jiu3
+葡萄球菌腸毒素	pu2 tao2 qiu2 jun4 chang2 du2 su4
+葡萄糖胺	pu2 tao2 tang2 an4
+葡萄藤	pu2 tao2 teng2
+說葡萄酸	shuo1 pu2 tao2 suan1
+酸葡萄	suan1 pu2 tao2
+酸葡萄心理	suan1 pu2 tao2 xin1 li3
+
+#「碼頭」相關
+公許碼頭	gong1 xu3 ma3 tou2
+拜碼頭	bai4 ma3 tou2
+撞碼頭	zhuang4 ma3 tou2
+棧橋式碼頭	zhan4 qiao2 shi4 ma3 tou2
+水旱碼頭	shui3 han4 ma3 tou2
+碼頭	ma3 tou2
+跑碼頭	pao3 ma3 tou2
+開碼頭	kai1 ma3 tou2
+
+#「功夫」相關
+下功夫	xia4 gong1 fu1
+做功夫	zuo4 gong1 fu1
+功夫球	gong1 fu1 qiu2
+功夫茶	gong1 fu1 cha2
+抓功夫	zhua1 gong1 fu1
+抽功夫	chou1 gong1 fu1
+磨功夫	mo2 gong1 fu1
+筆下功夫	bi3 xia4 gong1 fu1
+
+#「工夫」相關
+下工夫	xia4 gong1 fu1
+不多工夫	bu4 duo1 gong1 fu1
+做工夫	zuo4 gong1 fu1
+半刻工夫	ban4 ke4 gong1 fu1
+半頓飯工夫	ban4 dun4 fan4 gong1 fu1
+工夫茶	gong1 fu1 cha2
+得來全不費工夫	de2 lai2 quan2 bu2 fei4 gong1 fu1
+抓工夫	zhua1 gong1 fu1
+死工夫	si3 gong1 fu1
+水磨工夫	shui3 mo2 gong1 fu1
+沒工夫	mei2 gong1 fu1
+用工夫	yong4 gong1 fu1
+表面工夫	biao3 mian4 gong1 fu1
+賣工夫	mai4 gong1 fu1
+
+#「江湖」相關
+老江湖	lao3 jiang1 hu2
+闖江湖	chuang3 jiang1 hu2
+
+#「屁股」相關
+光屁股	guang1 pi4 gu3
+報屁股	bao4 pi4 gu3
+夾屁股	jia2 pi4 gu3
+屁股	pi4 gu3
+屁股大弔了心	pi4 gu3 da4 diao4 le5 xin1
+屁股沉	pi4 gu3 chen2
+屁股眼	pi4 gu3 yan3
+屁股震葫蘆	pi4 gu3 zhen4 hu2 lu2
+打屁股	da3 pi4 gu3
+沉屁股	chen2 pi4 gu3
+煙屁股	yan1 pi4 gu3
+狗顛屁股	gou3 dian1 pi4 gu3
+跟屁股	gen1 pi4 gu3
+
+#「鑰匙」相關
+一把鑰匙開一把鎖	yi4 ba3 yao4 shi3 kai1 yi4 ba3 suo3
+公開鑰匙	gong1 kai1 yao4 shi3
+現在是過去鑰匙	xian4 zai4 shi4 guo4 qu4 yao4 shi3
+私人鑰匙	si1 ren2 yao4 shi3
+萬能鑰匙	wan4 neng2 yao4 shi3
+金鑰匙	jin1 yao4 shi3
+鑰匙	yao4 shi3
+鑰匙圈	yao4 shi3 quan1
+鑰匙洞孔	yao4 shi3 dong4 kong3
+鑰匙鏈	yao4 shi3 lian4
+
+樸實	pu2 shi2
+機伶	ji1 ling2
+機伶人	ji1 ling2 ren2
+機靈	ji1 ling2
+橫是	heng2 shi4
+歇息	xie1 xi1
+歐巴桑	ou1 ba1 sang1
+歡勢	huan1 shi4
+歡實	huan1 shi2
+歡歡喜喜	huan1 huan1 xi3 xi3
+正經八百	zheng4 jing1 ba1 bai3
+正頭娘子	zheng4 tou2 niang2 zi3
+正頭香主	zheng4 tou2 xiang1 zhu3
+步子	bu4 zi3
+武大郎	wu3 da4 lang2
+武大郎吃毒藥	wu3 da4 lang2 chi1 du2 yao4
+歪派	wai1 pai4
+歹婆娘	dai3 po2 niang2
+死對頭	si3 dui4 tou2
+死性	si3 xing4
+死胡同	si3 hu2 tong2
+段頭	duan4 tou5
+比一比	bi3 yi1 bi3
+比方	bi3 fang1
+比試	bi3 shi4
+毛丫頭	mao2 ya1 tou2
+毛廁	mao2 ce4
+毛毛蟲	mao2 mao2 chong2
+毛毛雨	mao2 mao2 yu3
+毫不介意	hao2 bu4 jie4 yi4
+毫不在意	hao2 bu2 zai4 yi4
+毫不思量	hao2 bu4 si1 liang2
+毫不猶豫	hao2 bu4 you2 yu4
+毫不相干	hao2 bu4 xiang1 gan1
+毫不費力	hao2 bu2 fei4 li4
+毫不遲疑	hao2 bu4 chi2 yi2
+氣性	qi4 xing4
+氣派	qi4 pai4
+水作坊	shui3 zuo1 fang3
+求爺爺	qiu2 ye2 ye2
+沒人當你是啞吧	mei2 ren2 dang1 ni3 shi4 ya3 ba1
+沒來頭	mei2 lai2 tou2
+沒個見識	mei2 ge5 jian4 shi2
+沒出息	mei2 chu1 xi2
+沒商量	mei2 shang1 liang2
+沒嘴葫蘆	mei2 zui3 hu2 lu2
+沒地	mei2 di4
+沒好意思	mei2 hao3 yi4 si1
+沒得	mei2 de2
+沒得說的	mei2 de2 shuo1 de5
+沒志氣	mei2 zhi4 qi4
+沒意思	mei2 yi4 si1
+沒意思	mei2 yi4 si4
+沒指望	mei2 zhi3 wang4
+沒有意思	mei2 you3 yi4 si1
+沒有關係	mei2 you3 guan1 xi1
+沒本事	mei2 ben3 shi4
+沒本錢買賣	mei2 ben3 qian2 mai3 mai4
+沒正經	mei2 zheng4 jing1
+沒正經的事	mei2 zheng4 jing1 de5 shi4
+沒準頭	mei2 zhun3 tou2
+沒什麼	mei2 shen2 me5
+沒看頭	mei2 kan4 tou2
+沒脊梁	mei2 ji2 liang2
+沒脾氣	mei2 pi2 qi4
+沒興頭	mei2 xing4 tou2
+沒見識	mei2 jian4 shi4
+沒規矩	mei2 gui1 ju3
+沒講究	mei2 jiang3 jiu4
+沒賺頭	mei2 zhuan4 tou2
+沒造化	mei2 zao4 hua4
+沒造化的	mei2 zao4 hua4 de5
+沒造化的種子	mei2 zao4 hua4 de5 zhong3 zi3
+沒關係	mei2 guan1 xi4
+沒關係	mei2 guan1 xi1
+沒骨氣	mei2 gu3 qi4
+沒骨頭	mei2 gu3 tou2
+沙和尚	sha1 he2 shang4
+油花和尚	you1 hua1 he2 shang4
+油裙	you2 qun2
+油香	you2 xiang1
+沼狸	zhao3 li2
+沾便宜	zhan1 pian2 yi2
+沿路拾芝麻	yan2 lu4 shi2 zhi1 ma2
+泥娃娃	ni2 wa2 wa2
+泥鰍	ni2 qiu1
+泰山娘娘	tai4 shan1 niang2 niang2
+留個	liu2 ge5
+洋娃娃	yang2 wa2 wa2
+活不下去	huo2 bu2 xia4 qu4
+活寶貝	huo2 bao3 bei4
+活菩薩	huo2 pu2 sa4
+活變	huo2 bian4
+派不是	pai4 bu2 shi4
+浪頭	lang4 tou2
+海峽兩岸關係協會	hai3 xia2 liang3 an4 guan1 xi1 xie2 hui4
+消停	xiao1 ting2
+消息來源	xiao1 xi2 lai2 yuan2
+消息靈通	xiao1 xi2 ling2 tong1
+添補	tian1 bu3
+添麻煩	tian1 ma2 fan2
+湊合	cou4 he2
+溜搭	liu1 da1
+溜溜	liu4 liu4
+溜眼睛	liu1 yan3 jing1
+溜達	liu1 da2
+溼氣	shi1 qi4
+溫乎	wen1 hu1
+滑不嘰溜	hua2 bu4 ji1 liu1
+滑稽	hua2 ji1
+滴里嘟嚕	di1 li3 du1 lu1
+滾出去	gun3 chu1 qu4
+滾起來	gun3 qi3 lai2
+滾開	gun3 kai1
+滿嘴跑舌頭	man3 zui3 pao3 she2 tou2
+漂亮	piao4 liang4
+漂亮話	piao4 liang4 hua4
+漏春和尚	lou4 chun1 he2 shang4
+漏風的巴掌	lou4 feng1 de5 ba1 zhang3
+潑辣	bo1 la4
+潑辣貨	bo1 la4 huo4
+澆頭	jiao1 tou2
+激靈	ji1 ling2
+灑脫	sa3 tuo1
+灣轉	wan1 zhuai3
+火燒	huo3 shao1
+炕上地下	kang4 shang4 di4 xia4
+炮仗	pao4 zhang4
+烏塗	wu1 tu2
+烏塗水	wu1 tu2 shui3
+烙鐵	lao4 tie3
+無做作	wu2 zuo4 zuo4
+無毒不丈夫	wu2 du2 bu2 zhang4 fu1
+無菌性	wu2 jun4 xing4
+無菌的	wu2 jun4 de5
+煙傢伙	yan1 jia1 huo3
+熟商量	shou2 shang1 liang2
+熬不住	ao1 bu2 zhu4
+熬不過	ao1 bu2 guo4
+熬磨	ao2 mo2
+熬頭	ao2 tou2
+熱鬧	re4 nao4
+熱鬧哄哄	re4 nao4 hong1 hong1
+燈籠	deng1 long2
+燒喇嘛	shao1 la3 ma1
+燒賣	shao1 mai4
+燕子樓	yan1 zi5 lou2
+燙頭髮	dang4 tou2 fa3
+營業時候	ying2 ye4 shi2 hou4
+爐房	lu2 fang2
+爛了舌頭	lan4 le5 she2 tou2
+爛糊	lan4 hu5
+爬拉	pa2 la1
+爬犁	pa2 li2
+爸爸	ba4 ba4
+爹爹	die1 die1
+爺爺	ye2 ye2
+牌坊	pai2 fang3
+牙根癢癢	ya2 gen1 yang3 yang3
+牙癢癢	ya2 yang3 yang3
+牛氣	niu2 qi4
+牛脾氣	niu2 pi2 qi4
+牡丹區	mu3 dan1 qu1
+牡丹卡	mu3 dan1 ka3
+牡丹坊	mu3 dan1 fang3
+牡丹江地區	mu3 dan1 jiang1 di4 qu1
+牡丹江市	mu3 dan1 jiang1 shi4
+牡丹鄉	mu3 dan1 xiang1
+牢穩	lao2 wen3
+特別任務連	te4 bie2 ren4 wu4 lian2
+牽頭	qian1 tou2
+犯得上	fan4 de2 shang4
+犯忌諱	fan4 ji4 hui4
+犯節氣	fan4 jie1 qi4
+犯脾氣	fan4 pi2 qi4
+狐狸	hu2 li2
+狐狸尾巴	hu2 li2 wei3 ba5
+狐狸尾巴	hu2 li2 yi3 ba5
+狐狸座	hu2 li2 zuo4
+狐狸狗	hu2 li2 gou3
+狐狸精	hu2 li2 jing1
+狗日的糧食	gou3 ri4 de5 liang2 shi2
+狗氣	gou3 qi4
+狗骨頭	gou3 gu3 tou2
+猛不防	meng3 bu4 fang2
+猛地	meng3 di4
+猜不透	cai1 bu2 tou4
+猩猩	xing1 xing1
+獨家生意	du2 jia1 sheng1 yi4
+玉米	yu4 mi3
+王八	wang2 ba1
+王八看綠豆	wang2 ba1 kan1 lv4 dou4
+王八羔子	wang2 ba1 gao1 zi5
+王八蛋	wang2 ba1 dan4
+王母娘娘	wang2 mu3 niang2 niang2
+王爺	wang2 ye2
+玩不得的	wan2 bu4 de2 de5
+玩不轉	wan2 bu4 zhuan3
+玩得轉	wan2 de2 zhuan3
+玩花頭	wan2 hua1 tou2
+玫瑰	mei2 gui1
+玫瑰紅	mei2 gui1 hong2
+玫瑰花	mei2 gui1 hua1
+玻色子	bo1 se4 zi3
+班禪喇嘛	ban1 chan2 la3 ma1
+現弄	xian4 nong4
+理性知識	li3 xing4 zhi1 shi4
+理性認識	li3 xing4 ren4 shi4
+琉璃喇叭	liu2 li2 la3 ba1
+琵琶	pi2 pa2
+環繞喇叭	huan2 rao4 la3 ba1
+瓦匠	wa3 jiang4
+甚底	shen2 di3
+甚麼東西	shen2 me5 dong1 xi1
+甜頭	tian2 tou2
+生地方	sheng1 di4 fang1
+生意不成仁義在	sheng1 yi4 bu4 cheng2 ren2 yi4 zai4
+生意人	sheng1 yi4 ren2
+生意口	sheng1 yi4 kou3
+生意擔子	sheng1 yi4 dan4 zi5
+生意經	sheng1 yi4 jing1
+生發	sheng1 fa1
+生養	sheng1 yang3
+用不了	yong4 bu2 liao3
+用處	yong4 chu4
+用項	yong4 xiang4
+甩包袱	shuai3 bao1 fu2
+由不得	you2 bu4 de2
+留下	liu2 xia4
+畜生	chu4 sheng1
+畫拉	hua4 la1
+當上	dang1 shang4
+當不得	dang1 bu4 de2
+疏忽大意	shu1 hu1 da4 yi4
+疙搭	ge1 da1
+疙疙瘩瘩	ge1 ge1 da1 da1
+疙瘩	ge1 da1
+疙瘩事	ge1 da1 shi4
+病因子	bing4 yin1 zi3
+痔瘡	zhi4 chuang1
+痘疹娘娘	dou4 zhen3 niang2 niang2
+痛痛快快	tong4 tong4 kuai4 kuai4
+瘋瘋傻傻	feng1 feng1 sha3 sha3
+瘋瘋癲癲	feng1 feng1 dian1 dian1
+瘋瘋顛顛	feng1 feng1 dian1 dian1
+瘦溜	shou4 liu1
+瘸和尚說法	que2 he2 shang4 shuo1 fa3
+癢癢	yang3 yang3
+癩蛤蟆	lai4 ha2 ma2
+癩蝦蟆	lai4 ha2 ma2
+發脾氣	fa1 pi2 qi4
+白天	bai2 tian1
+白天不做虧心事	bai2 tian1 bu2 zuo4 kui1 xin1 shi4
+白想想	bai2 xiang3 xiang3
+白淨	bai2 jing4
+白白淨淨	bai2 bai2 jing4 jing4
+白芝麻	bai2 zhi1 ma1
+白花花	bai2 hua1 hua1
+白蹧蹋	bai2 zao1 ta4
+百不雜	bai3 bu2 za2
+百合子	bai3 he2 zi3
+百度知道	bai3 du4 zhi1 dao4
+百花娘子	bai3 hua1 niang2 zi3
+的溜骨碌	de5 liu1 gu3 lu4
+皇上	huang2 shang4
+皇曆	huang2 li4
+皮匠	pi2 jiang4
+皮夾子	pi2 jia2 zi5
+皮實	pi2 shi2
+益處	yi4 chu4
+益覺困難	yi4 jue2 kun4 nan2
+盔頭	kui1 tou2
+盛殮	cheng2 lian4
+盤算	pan2 suan4
+盤纏	pan2 chan2
+盤頭丫頭	pan2 tou2 ya1 tou2
+直溜	zhi2 liu1
+相公堂子	xiang1 gong1 tang2 zi5
+相對位置	xiang1 dui4 wei4 zhi4
+相差不多	xiang1 cha1 bu4 duo1
+盼頭	pan4 tou2
+省得	sheng3 de2
+看上去	kan4 shang4 qu4
+看不上	kan4 bu2 shang4
+看不下去	kan4 bu2 xia4 qu4
+看不中	kan4 bu2 zhong1
+看不來	kan4 bu4 lai2
+看不出	kan4 bu4 chu1
+看不得	kan4 bu4 de2
+看不慣	kan4 bu2 guan4
+看不清	kan4 bu4 qing1
+看不見	kan4 bu2 jian4
+看不起	kan4 bu4 qi3
+看不透	kan4 bu2 tou4
+看不過	kan4 bu2 guo4
+看不過去	kan4 bu2 guo4 qu4
+看得見	kan4 de5 jian4
+看看	kan4 kan4
+看頭	kan4 tou2
+看風頭	kan4 feng1 tou2
+真是的	zhen1 shi4 de5
+眯縫	mi1 feng2
+眼底下	yan3 di3 xia4
+眼皮子底下	yan3 pi2 zi5 di3 xia4
+眼色	yan3 se4
+眼見得	yan3 jian4 de2
+瞅不得	chou3 bu4 de2
+瞅不見	chou3 bu2 jian4
+瞅不起	chou3 bu4 qi3
+瞧上	qiao2 shang4
+瞧不得	qiao2 bu4 de2
+瞧熱鬧	qiao2 re4 nao4
+瞧瞧	qiao2 qiao2
+知識寶庫	zhi1 shi4 bao3 ku4
+知識就是力量	zhi1 shi4 jiu4 shi4 li4 liang4
+知識工程師	zhi1 shi4 gong1 cheng2 shi1
+知識庫	zhi1 shi4 ku4
+知識界	zhi1 shi4 jie4
+短不了	duan3 bu4 liao3
+短打扮	duan3 da3 ban4
+短頭	duan3 tou2
+石榴子	shi2 liu2 zi3
+石榴樹	shi2 liu2 shu4
+石榴石	shi2 liu2 shi2
+石頭	shi2 tou2
+石頭火鍋	shi2 tou2 huo3 guo1
+石頭草	shi2 tou2 cao3
+石頭餅	shi2 tou2 bing3
+破費	po4 fei4
+砸兌	za2 dui4
+硬掙	ying4 zheng1
+硬朗	ying4 lang3
+硬棒	ying4 bang4
+硬氣	ying4 qi4
+硬骨頭	ying4 gu3 tou2
+硯台	yan4 tai2
+碰運氣	peng4 yun4 qi4
+確乎	que4 hu1
+碼頭	ma3 tou2
+磕巴	ke1 ba1
+磕打	ke1 da3
+磕過頭的	ke1 guo4 tou2 de5
+磣的慌	chen3 de5 huang1
+磨了半截舌頭	mo2 le5 ban4 jie2 she2 tou2
+磨功夫	mo2 gong1 fu1
+磨叨	mo2 dao1
+磨咕	mo2 gu1
+磨對	mo2 dui4
+磨舌頭	mo2 she2 tou2
+磨菇	mo2 gu1
+磨豆腐	mo2 dou4 fu3
+神話故事	shen2 hua4 gu4 shi4
+禁不住	jin1 bu2 zhu4
+禁不得	jin1 bu4 de2
+福分	fu2 fen4
+禮行貨	li3 hang2 huo4
+過去分詞	guo4 qu4 fen1 ci2
+過去經驗	guo4 qu4 jing1 yan4
+反知識	fan3 zhi1 shi4
+知識越多越反動	zhi1 shi4 yue4 duo1 yue4 fan3 dong4
+科學知識	ke1 xue2 zhi1 shi4
+預備知識	yu4 bei4 zhi1 shi4租錢	zu1 qian2
+秧秧蹌蹌	yang1 yang1 qiang1 qiang1
+移民媽媽	yi2 min2 ma1 ma1
+稀罕	xi1 han4
+稠糊	chou2 hu1
+種子島	zhong3 zi3 dao3
+種子植物	zhong3 zi3 zhi2 wu4
+種子選手	zhong3 zi3 xuan3 shou3
+種莊稼	zhong4 zhuang1 jia4
+積作	ji1 zuo4
+穩住	wen3 zhu4
+穩當	wen3 dang4
+空心蘿蔔	kong1 xin1 luo2 bo1
+空鐘	kong1 zhong1
+空頭事	kong1 tou2 shi4
+空頭冤家	kong1 tou2 yuan1 jia1
+空頭堡	kong1 tou2 bao3
+空頭情	kong1 tou2 qing2
+空頭話	kong1 tou2 hua4
+空頭謊	kong1 tou2 huang3穿上	chuan1 shang4
+窄巴	zhai3 ba1
+窗戶	chuang1 hu4
+窗戶紙	chuang1 hu4 zhi3
+靠窗戶	kao4 chuang1 hu4
+窟窿	ku1 long1
+窩囊	wo1 nang1
+窩囊廢	wo1 nang1 fei4
+窩囊氣	wo1 nang1 qi4
+窩憋	wo1 bie1
+窩棚	wo1 peng2
+窩窩頭	wo1 wo1 tou2
+窮氣	qiong2 qi4
+窮骨頭	qiong2 gu3 tou2
+立規矩	li4 gui1 ju3
+站不住腳	zhan4 bu2 zhu4 jiao3
+站得住	zhan4 de2 zhu4
+站起來	zhan4 qi3 lai2
+端子	duan1 zi3
+笑殺	xiao4 sha1
+筆下功夫	bi3 xia4 gong1 fu1
+算上	suan4 shang4
+算不了	suan4 bu4 liao3
+算命先生	suan4 ming4 xian1 sheng1
+算起來	suan4 qi3 lai2
+管家娘子	guan3 gu1 niang2 zi3
+節錢	jie1 qian2
+節骨眼	jie2 gu3 yan3
+節骨眼上	jie2 gu3 yan3 shang4籬笆	li2 ba1
+米湯	mi3 tang1
+粗實	cu1 shi2
+粘糊	nian2 hu2
+糊刷	hu1 shua1
+糊弄	hu2 nong4
+糊弄局	hu2 nong4 ju2
+糊糊	hu2 hu2
+糊糊塗塗	hu2 hu2 tu2 tu2
+糕乾	gao1 gan1
+糖葫蘆	tang2 hu2 lu2
+糟豆腐	zao1 dou4 fu3
+糢糢糊糊	mo2 mo2 hu1 hu1
+約摸	yue1 mo1
+約莫	yue1 mo4
+紅姑娘	hong1 gu1 niang2
+紅寡婦鳥	hong1 gua3 fu4 niao3
+紅泥月亮	hong1 ni2 yue4 liang4
+紙糊頭	zhi3 hu2 tou2
+紮實推進	za1 shi2 tui1 jin4
+紮紮實實	za1 za1 shi2 shi2
+累墜	lei2 zhui4
+累得慌	lei4 de2 huang1
+累贅	lei2 zhui4
+結巴	ji4 ba1
+結結實實	jie2 jie2 shi2 shi2
+結結巴巴	jie2 jie2 ba1 ba1
+絕大部份	jue2 da4 bu4 fen4
+絮叨	xu4 dao1
+絮煩	xu4 fan2
+經不起	jing1 bu4 qi3
+經濟力量	jing1 ji4 li4 liang4
+力量	li4 liang4
+威懾力量	wei1 she4 li4 liang4
+戰略核力量	zhan4 lve4 he2 li4 liang4
+打擊軍事力量	da3 ji1 jun1 shi4 li4 liang4
+軍事力量	jun1 shi4 li4 liang4
+網吧	wang3 ba1
+網路特務	wang3 lu4 te4 wu4
+綵牌樓	cai3 pai2 lou2
+線性算子	xian4 xing4 suan4 zi3
+總書記	zong3 shu1 ji4
+繞磨	rao4 mo2
+繞騰	rao4 teng2
+繡花枕頭	xiu4 hua1 zhen3 tou2
+繫上	ji4 shang4
+纏夾二先生	chan2 jia2 er4 xian1 sheng1
+纏磨	chan2 mo2
+罌粟種子	ying1 su4 zhong3 zi3
+罐頭	guan4 tou2
+罐頭起子	guan4 tou2 qi3 zi5
+罩不住	zhao4 bu2 zhu4
+羊撞籬笆	yang2 zhuang4 li2 ba1
+羊毛出在羊身上	yang2 mao2 chu1 zai4 yang2 shen1 shang4
+羊霜腸	yang2 shuang1 chang2
+羌帖	qiang1 tie3
+翻花頭	fan1 hua1 tou2
+翻跟頭	fan1 gen1 tou2
+老一巴掌	lao3 yi1 ba1 zhang3
+老丈人	lao3 zhang4 ren2
+老主顧	lao3 zhu3 gu4
+老交情	lao3 jiao1 qing2
+老人家	lao3 ren2 jia1
+老伯伯	lao3 bo2 bo2
+老佛爺	lao3 fo2 ye2
+老兄弟	lao3 xiong1 di4
+老先生	lao3 xian1 sheng1
+老公公	lao3 gong1 gong1
+老哥哥	lao3 ge1 ge1
+老地方	lao3 di4 fang1
+老太太	lao3 tai4 tai4
+老奶奶	lao3 nai3 nai3
+老姑娘	lao3 gu1 niang2
+老婆婆	lao3 po2 po2
+老婆孩子熱炕頭	lao3 po2 hai2 zi5 re4 kang4 tou2
+老婆舌頭	lao3 po2 she2 tou2
+老嬤嬤	lao3 ma1 ma1
+老實巴交	lao3 shi2 ba1 jiao1
+老實話	lao3 shi2 hua4
+老實頭	lao3 shi2 tou2
+老師傅	lao3 shi1 fu4
+老師父	lao3 shi1 fu4
+老把勢	lao3 ba3 shi4
+老把式	lao3 ba3 shi4
+老朋友	lao3 peng2 you3
+老東西	lao3 dong1 xi1
+老江湖	lao3 jiang1 hu2
+老營生	lao3 ying2 sheng1
+老爺	lao3 ye2
+老爺嶺	lao3 ye2 ling3
+老爺廟	lao3 ye2 miao4
+老爺爺	lao3 ye2 ye2
+老爺車	lao3 ye2 che1
+老狐狸	lao3 hu2 li2
+老畜生	lao3 chu4 sheng1
+老疙瘩	lao3 ge1 da1
+老章程	lao3 zhang1 cheng2
+老糊塗	lao3 hu1 tu2
+老繃	lao3 beng1
+老老	lao3 lao3
+老背悔	lao3 bei4 hui3
+老虎頭上打蒼蠅	lao3 hu3 tou2 shang4 da3 cang1 ying2
+老虎頭上拍蒼蠅	lao3 hu3 tou2 shang4 pai1 cang1 ying2
+老虎頭上撲蒼蠅	lao3 hu3 tou2 shang4 pu1 cang1 ying2
+老行家	lao3 hang2 jia1
+老街坊	lao3 jie1 fang3
+老規矩	lao3 gui1 ju3
+老豆腐	lao3 dou4 fu3
+老頑固	lao3 wan2 gu4
+老骨頭	lao3 gu3 tou2
+老鴰	lao3 gua1
+老鼠尾巴	lao3 shu3 wei3 ba1
+耍手藝	shua3 shou3 yi4
+耍脾氣	shua3 pi2 qi4
+耍骨頭	shua3 gu3 tou2
+耳朵	er3 duo1
+耳朵尖	er3 duo1 jian1
+耳朵帽	er3 duo1 mao4
+耳朵底子	er3 duo1 di3 zi5
+耳朵軟	er3 duo1 ruan3
+耳風	er3 feng1
+耽擱	dan1 ge1
+聊聊	liao2 liao2
+聖安地列斯斷層	sheng4 an1 di4 lie4 si1 duan4 ceng2
+聞起來總是香的	wen2 qi3 lai2 zong1 shi4 xiang1 de5
+聰明過頭	cong1 ming2 guo4 tou2
+聽不到	ting1 bu2 dao4
+聽不見	ting1 bu2 jian4
+聽起來	ting1 qi3 lai2
+聽頭	ting1 tou2
+肉頭	rou4 tou2
+肐膊	ge1 bo2
+肐膊上走的馬	ge1 bo2 shang4 zou3 de5 ma3
+肐膊肘子	ge1 bo2 zhou3 zi5
+肐膊腕子	ge1 bo2 wan4 zi5
+肝氣	gan1 qi4
+肥肥胖胖	fei2 fei2 pan2 pan2
+胖高麗	pan2 gao1 li4
+胞囊孢子	bao1 nang2 bao1 zi3
+胡塗蟲	hu2 tu2 chong2
+胡姑姑	hu2 gu1 gu1
+胡椒薄荷	hu2 jiao1 bo4 he2
+胳肢窩	ge1 zhi1 wo1
+胳肢窩	ga1 zhi1 wo1
+胳膊	ge1 bo2
+胳膊肘子	ge1 bo2 zhou3 zi5
+胳膊肘	ge1 bo2 zhou3
+胳膊肘朝外拐	ge1 bo2 zhou3 chao2 wai4 guai3
+胳臂	ge1 bei4
+脆生	cui4 sheng1
+脾氣	pi2 qi4
+脾氣情性	pi2 qi4 qing2 xing4
+腦袋	nao3 dai4
+腦袋搬家	nao3 dai4 ban1 jia1
+腦袋瓜子	nao3 dai4 gua1 zi5
+腦袋疼	nao3 dai4 teng2
+腰頭硬	yao1 tou2 ying4
+腳底下	jiao3 di3 xia4
+腳指甲	jiao3 zhi3 jia3
+膈肢	ge2 zhi1
+膈肢窩	ge2 zhi1 wo1
+膏藥旗	gao1 shuo4 qi2
+膩抹	ni4 mo3
+膩的慌	ni4 de5 huang1
+膩糊	ni4 hu1
+臉面	lian3 mian4
+臉面之情	lian3 mian4 zhi1 qing2
+第二個	di4 er4 ge5
+自個兒	zi4 ge3 er2
+自打嘴巴	zi4 da3 zui3 ba1
+自找麻煩	zi4 zhao3 ma2 fan2
+臭排場	chou4 pai2 chang3
+臭豆腐	chou4 dou4 fu3
+舅太太	jiu4 tai4 tai4
+舅奶奶	jiu4 nai3 nai3
+舅老爺	jiu4 lao3 ye2
+舅舅	jiu4 jiu4
+舅舅不愛	jiu4 jiu4 bu2 ai4
+興頭	xing4 tou2
+舌頭	she2 tou2
+舍利子塔	she3 li4 zi3 ta3
+舒服	shu1 fu2
+艾窩窩	ai4 wo1 wo1
+芋頭	yu4 tou2
+芝麻	zhi1 ma2
+芝麻包	zhi1 ma2 bao1
+芝麻官	zhi1 ma2 guan1
+芝麻小事	zhi1 ma2 xiao3 shi4
+芝麻油	zhi1 ma2 you2
+芝麻秸	zhi1 ma2 jie1
+芝麻糊	zhi1 ma2 hu2
+芝麻綠豆	zhi1 ma2 lv4 dou4
+芝麻醬	zhi1 ma2 jiang4
+芝麻餅	zhi1 ma2 bing3
+陳年爛芝麻	chen2 nian2 lan4 zhi1 ma2
+陳穀子爛芝麻	chen2 gu3 zi5 lan4 zhi1 ma2
+黑芝麻	hei1 zhi1 ma2
+黑芝麻糊	hei1 zhi1 ma2 hu2
+蛤蟆	ha2 ma2
+蛤蟆吵坑	ha2 ma2 chao3 keng1
+蛤蟆夯	ha2 ma2 hang1
+蛤蟆蹲	ha2 ma2 dun1
+蝦米	xia1 mi3
+蝦芭	xia1 ba1
+蝦蟆	ha2 ma2
+蝦蟆子	ha2 ma2 zi5
+蝦蟆陵	ha2 ma2 ling2
+螞螂	ma1 lang2
+螞蟻啃骨頭	ma3 yi3 ken3 gu3 tou2
+螺螄	luo2 si1
+蟈蟈	guo1 guo1
+蠢東西	chun3 dong1 xi1
+行不得	xing2 bu4 de2
+行化	xing2 hua4
+行家瞧門道	hang2 jia1 qiao2 men2 dao1
+行家莫說力把話	hang2 jia1 mo4 shuo1 li4 ba3 hua4
+行家話	hang2 jia1 hua4
+行李傳送帶	xing2 li3 chuan2 song4 dai4
+行李員	xing2 li3 yuan2
+行李房	xing2 li3 fang2
+行李架	xing2 li3 jia4
+行李票	xing2 li3 piao4
+行檔	hang2 dang3
+行當	hang2 dang1
+行道	hang2 dao4
+行頭	xing2 tou2
+街上	jie1 shang4
+街坊	jie1 fang3
+街坊四鄰	jie1 fang3 si4 lin2
+街坊鄰里	jie1 fang3 lin2 li3
+街里街坊	jie1 li3 jie1 fang3
+衡量制	heng2 liang2 zhi4
+衣服	yi1 fu2
+衣裳	yi1 shang1
+表面上	biao3 mian4 shang4
+表面工夫	biao3 mian4 gong1 fu1
+被臥	bei4 wo4
+裁縫鋪	cai2 feng2 pu4
+裂開	lie4 kai1
+補丁	bu3 ding1
+補精神	bu3 jing1 shen2
+補釘	bu3 ding1
+補靪	bu3 ding1
+裝糊塗	zhuang1 hu1 tu2
+裝裹	zhuang1 guo3
+裱褙師傅	biao3 bei4 shi1 fu4
+裹抹	guo3 mo3
+要不是	yao4 bu2 shi4
+要不的	yao4 bu2 de5
+見識淺	jian4 shi4 qian3
+親太太	qin1 tai4 tai4
+親奶奶	qin1 nai3 nai3
+親家	qing4 jia1
+親家公	qing4 jia1 gong1
+親家母	qing4 jia1 mu3
+親家禮道	qing4 jia1 li3 dao4
+親家翁	qing4 jia1 weng1
+親家老爺	qing4 jia1 lao3 ye2
+覺得	jue2 de2
+解開疙瘩	jie3 kai1 ge1 da1
+觸霉頭	chu4 mei2 tou2
+討人喜歡	tao3 ren2 xi3 huan1
+討便宜	tao3 pian2 yi2
+討公道	tao3 gong1 dao4
+討沒意思	tao3 mei2 yi4 si1
+討油水	tao3 you1 shui3
+討饒頭	tao3 rao2 tou2
+訕不搭的	shan4 bu4 da1 de5
+記不住	ji4 bu2 zhu4
+記得	ji4 de2
+記號筆	ji4 hao4 bi3
+訛頭	e2 tou2
+註生娘娘	zhu4 sheng1 niang2 niang2
+詞項邏輯	ci2 xiang4 luo2 ji2
+試試	shi4 shi4
+試風頭	shi4 feng1 tou2
+詭病	gui3 bing4
+話說回來	hua4 shuo1 hui2 lai2
+認不出	ren4 bu4 chu1
+認得	ren4 de2
+說不上	shuo1 bu2 shang4
+說不上來	shuo1 bu2 shang4 lai2
+說不上來	shuo1 bu4 shang4 lai2
+說不下去	shuo1 bu2 xia4 qu4
+說不下去	shuo1 bu4 xia4 qu4
+說不來	shuo1 bu4 lai2
+說不出	shuo1 bu4 chu1
+說不定	shuo1 bu2 ding4
+說不得	shuo1 bu4 de5
+說不是	shuo1 bu2 shi4
+說不清	shuo1 bu4 qing1
+說不盡	shuo1 bu2 jin4
+說不過	shuo1 bu2 guo4
+說不過去	shuo1 bu2 guo4 qu4
+說分上	shuo1 fen4 shang4
+說和	shuo1 he2
+說相聲	shuo1 xiang4 sheng1
+說葡萄酸	shuo1 pu2 tao2 suan1
+說說	shuo1 shuo1
+說起來	shuo1 qi3 lai2
+調調	diao4 diao4
+談不上	tan2 bu4 shang4
+請受	qing3 shou4
+論頭	lun4 tou2
+謝謝	xie4 xie4
+謠言止於智者	yao2 yan2 zhi3 yu2 zhi4 zhe3
+謠言紛飛	yao2 yan2 fen1 fei1
+識得	shi4 de2
+識度	shi4 du4
+變得	bian4 de2
+豆腐	dou4 fu3
+豆腐乳	dou4 fu3 ru3
+豆腐乾	dou4 fu3 gan1
+豆腐嘴	dou4 fu3 zui3
+豆腐官	dou4 fu3 guan1
+豆腐干	dou4 fu3 gan1
+豆腐心	dou4 fu3 xin1
+豆腐心	dou4 fu3 xin1
+豆腐渣	dou4 fu3 zha1
+豆腐渣工程	dou4 fu3 zha1 gong1 cheng2
+豆腐皮	dou4 fu3 pi2
+豆腐腦	dou4 fu3 nao3
+豆腐衣	dou4 fu3 yi1
+豆腐西施	dou4 fu3 xi1 shi1
+豆腐鯊	dou4 fu3 sha1
+豎起	shu4 qi3
+豎起耳朵	shu4 qi3 er3 duo1
+豪橫	hao2 heng2
+豬尾巴	zhu1 wei3 ba1
+貓耳朵	mao1 er3 duo1
+貝勒	bei4 le4
+貞節牌坊	zhen1 jie2 pai2 fang3
+負擔不起	fu4 dan1 bu4 qi3
+貧骨頭	pin2 gu3 tou2
+販夫俗子	fan4 fu1 su2 zi3
+貪便宜	tan1 pian2 yi2
+買服	mai3 fu2
+買東西	mai3 dong1 xi1
+費盡心思	fei4 jin4 xin1 si1
+貼換	tie1 huan4
+賊骨頭	zei2 gu3 tou2
+賊鬼	zei2 gui3
+賠小心	pei2 xiao3 xin1
+賣力氣	mai4 li4 qi4
+賣字號	mai4 zi4 hao4
+賣工夫	mai4 gong1 fu1
+賣弄玄虛	mai4 long4 xuan2 xu1
+賣本事	mai4 ben3 shi4
+賣胳臂	mai4 ga1 bi4
+賤骨頭	jian4 gu3 tou2
+賬房先生	zhang4 fang2 xian1 sheng1
+賺弄	zhuan4 nong4
+賺頭	zhuan4 tou2
+赤巴巴	chi4 ba1 ba1
+走不開	zou3 bu4 kai1
+走心經	zou3 xin1 jing1
+走漏消息	zou3 lou4 xiao1 xi1
+走漏消息	zou3 lou4 xiao1 xi2
+走親戚	zou3 qin1 qi1
+走走	zou3 zou3
+起重葫蘆	qi3 zhong4 hu2 lu2
+起開	qi3 kai1
+起雞皮疙瘩	qi3 ji1 pi2 ge1 da1
+趕情	gan3 qing2
+趕浪頭	gan3 lang4 tou2
+趕碌	gan3 lu4
+趴下	pa1 xia4
+跌根頭	die2 gen1 tou2
+跑碼頭	pao3 ma3 tou2
+跟不上	gen1 bu2 shang4
+跟前人	gen1 qian2 ren2
+跟屁股	gen1 pi4 gu3
+跟頭	gen1 tou2
+跟頭蟲	gen1 tou2 chong2
+跨胳膊	kua4 ge1 bo2
+跺跺腳	duo4 duo4 jiao3
+踅摸	xue2 mo1
+踏踏實實	ta4 ta4 shi2 shi2
+踢蹬	ti1 deng4
+蹓躂	liu1 da2
+蹧踐	zao1 jian4
+身量	shen1 liang2
+身量	shen1 liang4
+躲不掉	duo3 bu2 diao4
+躲不了	duo3 bu4 liao3
+躲開	duo3 kai1
+車喝	che1 he1
+車夫	che1 fu1
+車把式	che1 ba3 shi4
+軋姘頭	ga2 pin1 tou2
+軍事力量	jun1 shi4 li4 liang4
+軟和	ruan3 he2
+軟罐頭	ruan3 guan4 tou2
+軟耳朵	ruan3 er3 duo1
+輕骨頭	qing1 gu3 tou2
+轂轆	gu1 lu4
+轉學生	zhuai3 xue2 sheng1
+轉悠	zhuan4 you1
+轉游	zhuan3 you2
+轉轉	zhuan4 zhuan4
+轉關係	zhuai3 guan1 xi4
+辣實	la4 shi2
+辣菜	la4 cai4
+辣菜根子	la4 cai4 gen1 zi5
+辦不到	ban4 bu2 dao4
+辭頭	ci2 tou2
+迂氣	yu1 qi4
+迷住	mi2 zhu4
+迷你玫瑰	mi2 ni3 mei2 gui1
+迷惑龍	mi2 huo4 long2
+迷離馬虎	mi2 li2 ma3 hu1
+透亮	tou4 liang4
+透露消息	tou4 lou4 xiao1 xi2
+這頭	zhe4 tou2
+連扯跟頭	lian2 che3 gen1 tou2
+過一過	guo4 yi1 guo4
+過不下	guo4 bu2 xia4
+過不去	guo4 bu2 qu4
+過去分詞	guo4 qu4 fen1 ci2
+過去經驗	guo4 qu4 jing1 yan4
+過天	guo4 tian1
+過嫁妝	guo4 jia4 zhuang1
+過河卒子	guo4 he2 zu2 zi3
+過過	guo4 guo4
+過過身	guo4 guo4 shen1
+道上	dao4 shang4
+道分	dao4 fen1
+道德認識	dao4 de2 ren4 shi4
+道行	dao4 xing2
+道道地地	dao4 dao4 di4 di4
+達賴喇嘛	da2 lai4 la3 ma1
+遛達	liu4 da2
+遠水救不了近火	yuan3 shui3 jiu4 bu4 liao3 jin4 huo3
+遠水救不得近渴	yuan3 shui3 jiu4 bu4 de2 jin4 ke3
+遮說	zhe1 shuo1
+避不得腥	bi4 bu4 de2 xing1
+還了得	hai2 liao3 de2
+邋遢	la1 ta1
+邏輯演算	luo2 ji2 yan3 suan4
+邏輯錯誤	luo2 ji2 cu4 wu4
+邏輯鏈路控制	luo2 ji2 lian2 lu4 kong4 zhi4
+那倒是	na4 dao4 shi4
+那兒	na1 er2
+那時候	na4 shi2 hou4
+那邊	na4 bian1
+邪乎	xie2 hu1
+邪行	xie2 xing2
+都把勢	du1 ba3 shi4
+都都摸摸	du1 du1 mo1 mo1
+都都磨磨	du1 du1 mo2 mo2
+鄉戚	xiang1 qi1
+配上	pei4 shang4
+配不上	pei4 bu2 shang4
+配頭	pei4 tou2
+酒錢	jiu3 qian2
+酸不溜丟	suan1 bu4 liu1 diu1
+酸葡萄	suan1 pu2 tao2
+酸葡萄心理	suan1 pu2 tao2 xin1 li3
+醉貌咕咚	zui4 mao4 gu1 dong1
+醋娘子要食楊梅	cu4 niang2 zi3 yao4 shi2 yang2 mei2
+醋心	cu4 xin1
+醜丫頭	chou3 ya1 tou2
+醫家	yi1 jia1
+醬糊缸	jiang4 hu2 gang1
+醬豆腐	jiang4 dou4 fu3
+重眉毛	zhong4 mei2 mao2
+重落	chong2 luo4
+野丫頭	ye3 ya1 tou2
+金剛猩猩	jin1 gang1 xing1 xing1
+針頭	zhen1 tou2
+鈴鐺壽星	ling2 dang1 shou4 xing1
+鉤搭	gou1 da1
+鋒頭	feng1 tou2
+鋤頭	chu2 tou2
+錯處	cuo4 chu4
+鍋伙	guo1 huo3
+鍋渣	guo1 zha1
+鍋餅	guo1 bing3
+鎖匙	suo3 shi3
+鎖頭	suo3 tou2
+鎗手	qiang1 shou3
+鎮物	zhen4 wu4
+鐵匠	tie3 jiang4
+鐵掃帚	tie3 sao4 zhou3
+鐵算盤	tie3 suan4 pan2
+鑒真和尚	jian4 zhen1 he2 shang4
+鑽機	zuan1 ji1
+鑽牛犄角	zuan1 niu2 ji1 jiao3
+钁頭	jue2 tou2
+長脾氣	zhang3 pi2 qi4
+長舌頭	chang2 she2 tou2
+門館先生	men2 guan3 xian1 sheng1
+閉上	bi4 shang4
+閉上嘴巴	bi4 shang4 zui3 ba1
+開碼頭	kai1 ma3 tou2
+闊氣	kuo4 qi4
+闖江湖	chuang3 jiang1 hu2
+闖鍊	chuang3 lian4
+關上	guan1 shang4
+阿達	a1 da2
+陣仗	zhen4 zhang4
+陪唱小姐	pei2 chang4 xiao3 jie3
+陪小心	pei2 xiao3 xin1
+陪房	pei2 fang2
+陳媽媽	chen2 ma1 ma1
+陳年爛芝麻	chen2 nian2 lan4 zhi1 ma2
+陳穀子爛芝麻	chen2 gu3 zi3 lan4 zhi1 ma2
+陳鍊	chen2 lian4
+隔肢	ge2 zhi1
+雀盲眼	que4 mang2 yan3
+雙石頭	shuang1 shi2 tou2
+雜合菜	za2 he2 cai4
+雜碎	za2 sui4
+雞巴	ji1 ba1
+雞皮疙瘩	ji1 pi2 ge1 da2
+雞蛋碰石頭	ji1 dan4 peng4 shi2 tou2
+雲彩	yun2 cai3
+電郵位置	dian4 you2 wei4 zhi4
+震天價響	zhen4 tian1 jia4 xiang3
+霉頭	mei2 tou2
+霧氣	wu4 qi4
+青天大老爺	qing1 tian1 da4 lao3 ye2
+靜落落	jing4 luo4 luo4
+非法勾當	fei1 fa3 gou1 dang4
+靠不住	kao4 bu2 zhu4
+靠得住	kao4 de2 zhu4
+靠窗戶	kao4 chuang1 hu4
+面子上的差使	mian4 zi3 shang4 de5 cha1 shi3
+韶刀	shao2 dao1
+順坦	shun4 tan3
+順溜	shun4 liu1
+順當	shun4 dang1
+順順溜溜	shun4 shun4 liu1 liu1
+頭腦清楚	tou2 nao3 qing1 chu3
+頭髮鬍子一把抓	tou2 fa3 hu2 zi3 yi1 ba3 zhua1
+額頭	e2 tou2
+顛不剌的	dian1 bu4 la2 de5
+顧不上	gu4 bu2 shang4
+顯得	xian3 de2
+風俗	feng1 su2
+風婆婆	feng1 po2 po2
+風水	feng1 shui3
+風水先生	feng1 shui3 xian1 sheng1
+風險與收益的關係	feng1 xian3 yu3 shou1 yi4 de5 guan1 xi1
+風頭	feng1 tou2
+飯量	fan4 liang4
+餈粑	ci2 ba1
+養不住	yang3 bu2 zhu4
+養婆娘	yang3 po2 niang2
+養媳婦	yang3 xi2 fu4
+養活	yang3 huo2
+養濟	yang3 ji4
+餛飩	hun2 dun4
+餛飩	hun2 tun2
+饅頭	man2 tou2
+饅頭果	man2 tou2 guo3
+饒頭	rao2 tou2
+饃頭	mo2 tou2
+首要任務	shou3 yao4 ren4 wu4
+香薄荷	xiang1 bo4 he2
+馬尾中鬃豆腐	ma3 wei3 zhong1 zong1 dou4 fu3
+馬尾穿豆腐	ma3 wei3 chuan1 dou4 fu3
+馬快頭	ma3 kuai4 tou2
+凍豆腐	dong4 dou4 fu3
+吃豆腐	chi1 dou4 fu3
+四季豆腐	si4 ji4 dou4 fu3
+鹹菜燒豆腐	xian2 cai4 shao1 dou4 fu3
+麻婆豆腐	ma2 po2 dou4 fu3
+馬檳榔	ma3 bin1 lang2
+馬糊	ma3 hu2
+馬虎	ma3 hu1
+馬虎從事	ma3 hu1 cong2 shi4
+馬虎湯	ma3 hu1 tang1
+馬虎眼	ma3 hu1 yan3
+馬馬虎虎	ma3 ma3 hu1 hu1
+駁頭	bo2 tou2
+駱駝	luo4 tuo2
+駱駝祥子	luo4 tuo2 xiang2 zi3
+駱駝絨	luo4 tuo2 rong2
+骨相	gu3 xiang4
+骨碌	gu3 lu4
+骨碌碌	gu3 lu4 lu4
+骨頭	gu3 tou2
+骨頭架子	gu3 tou2 jia4 zi5
+骨頭硬	gu3 tou2 ying4
+骨頭骨腦	gu3 tou2 gu3 nao3
+體己	ti3 ji3
+體己錢	ti3 ji3 qian2
+體諒	ti3 liang4
+高音喇叭	gao1 yin1 la3 ba1
+高頭	gao1 tou2
+高高下下	gao1 gao1 xia4 xia4
+高高低低	gao1 gao1 di1 di1
+高高瘦瘦	gao1 gao1 shou4 shou4
+髯口	ran2 kou3
+髽髻	zhua1 ji4
+鬆快	song1 kuai4
+鬆散物料	song1 san3 wu4 liao4
+鬆通	song1 tong1
+鬥分子	dou4 fen1 zi3
+鬧家務	nao4 gu1 wu4
+鬧彆扭	nao4 bie4 niu3
+鬧意見	nao4 yi4 jian4
+鬧脾氣	nao4 pi2 qi4
+鬧饑荒	nao4 ji1 huang1
+鬧騰	nao4 teng2
+鬧鬧熱熱	nao4 nao4 re4 re4
+鬧鬧穰穰	nao4 nao4 rang2 rang2
+鬧鬨	nao4 hong4
+鬼頭	gui3 tou2
+鬼飯疙瘩	gui3 fan4 ge1 da2
+鳥兒	diao3 er2
+鴛鴦蝴蝶	yuan1 yang1 hu2 die2
+鴛鴦鍋	yuan1 yang1 guo1
+麥克白夫人	mai4 ke4 bai2 fu1 ren2
+麥當勞叔叔	mai4 dang1 lao2 shu2 shu2
+麻俐	ma1 li4
+麻刀	ma1 dao1
+麻力	ma1 li4
+麻核桃	ma1 he2 tao2
+麻煩	ma1 fan2
+麻麻呼呼	ma2 ma2 hu1 hu1
+麻麻糊糊	ma2 ma2 hu2 hu2
+黃曆	huang2 li4
+黃毛丫頭	huang2 mao2 ya1 tou2
+黏涎	nian2 xian2
+黏涎答答	nian2 xian2 da2 da2
+黏糊	nian2 hu2
+黑下	hei1 xia4
+黑不溜丟	hei1 bu4 liu1 diu1
+黑咕籠咚	hei1 gu1 long1 dong1
+黑咕隆咚	hei1 gu1 long1 dong1
+黑家白日	hei1 jia1 bai2 ri4
+黑寡婦	hei1 gua3 fu4
+黑漆皮燈籠	hei1 qi1 pi2 deng1 long2
+黑猩猩	hei1 xing1 xing1
+黑芝麻	hei1 zhi1 ma2
+黑芝麻糊	hei1 zhi1 ma2 hu2
+黑骨朧東	hei1 gu3 long2 dong1
+點補	dian3 bu3
+鼓搗	gu3 dao3
+鼓鼓囊囊	gu3 gu3 nang2 nang2
+齊截	qi2 jie2
+龍落子	long2 luo4 zi3
